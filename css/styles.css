@@ -673,6 +673,10 @@ footer {
 
 .modal-close-btn {
 	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 	top: 8px;
 	right: 8px;
 	width: 30px;
