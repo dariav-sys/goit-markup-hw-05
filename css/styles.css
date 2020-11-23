@@ -72,6 +72,7 @@ header {
 .header-smartphone-icon {
 	fill: #757575;
 	margin-right: 10px;
+	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-mail-icon:hover,
@@ -91,6 +92,7 @@ header {
 .site-nav {
 	display: flex;
 	margin-left: 93px;
+
 	/* outline: 1px solid black; */
 }
 
@@ -109,6 +111,7 @@ header {
 	font-size: 14px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
+	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link.current {
@@ -139,6 +142,7 @@ header {
 	letter-spacing: 0.02em;
 	color: var(--secondary-grey-color);
 	text-decoration: none;
+	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact:hover svg,
@@ -315,7 +319,6 @@ header {
 .team-employees {
 	display: flex;
 	text-align: center;
-	/* padding-bottom: 42px; */
 }
 
 .item-employee {
@@ -358,6 +361,7 @@ header {
 	background-color: transparent;
 	fill: #afb1b8;
 	border-radius: 50%;
+	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	/* border: 2px solid red; */
 }
 
@@ -388,6 +392,7 @@ header {
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
 	fill: #afb1b8;
+	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-picture {
@@ -459,6 +464,7 @@ header {
 	background-color: #f5f4fa;
 	border-radius: 4px;
 	border: 1px solid transparent;
+	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button {
@@ -527,7 +533,7 @@ a {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.55;
-	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
 	transform: translateY(100%);
 }
 
